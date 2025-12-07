@@ -1,0 +1,18 @@
+# Airflow
+logs/
+airflow/logs/
+airflow/generated/
+*.db
+
+# Docker
+*.pid
+*.log
+.docker/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Environment files
+.env
